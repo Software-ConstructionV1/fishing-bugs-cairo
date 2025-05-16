@@ -11,5 +11,6 @@ Rails.application.routes.draw do
 
   # Defines the root path route ("/")
   # root "posts#index"
-  get '/users', to: 'user#index'
+  # ADD AN 's' to 'user' TO PREVENT VIOLATING THE NAMING CONVENTION
+  get '/users', to: 'users#index'
 end
